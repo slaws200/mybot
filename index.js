@@ -26,3 +26,5 @@ if (e instanceof GrammyError) {
     console.error('Unknown error:', e);
     }
 });
+
+bot.start();

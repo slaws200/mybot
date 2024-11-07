@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "commit": "git add -A && git commit -a -m'auto-commit' && git push"
   },
   "keywords": [],
   "author": "",
